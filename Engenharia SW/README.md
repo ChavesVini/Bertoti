@@ -7,3 +7,21 @@ We see three critical differences between programming and software engineering: 
 Para um engenheiro de software, eles tem mais conhecimento acerca do tempo, e, consequentemente, sabe como administrar-lo melhor.
 Em relação a escala, é importante também eles terem uma noção sobre o tamanho do projeto, assim, podem fazer o projeto com o máximo de eficiência em um tempo determinado.
 Além disso, eles são encorajados a fazer decisões mais complexas, que trará resultados de alto risco, baseados em escalas e tempo desconhecido.
+
+Qual o requisito não funcional? 
+Usabilidade.
+Qual a importância?
+Experiência do usuário (UX).
+Como "obter" este requisito não funcional para o meu software?
+Aplicando estas 10 heuristicas.
+Encontre 1 erro e 1 acerto de cada heuristica e coloque no seu README.md no GitHub.
+#1: Visibility of system status
+Windows no status "Iniciando...", você não sabe o que realmente está sendo iniciado.
+WhatsApp você sabe quando a pessoa está digitando, on-line e/ou gravando áudio.
+#2: Match between system and the real world
+Site da jusbrasil (área de processos), pois existem termos muito técnicos que somente quem é da área de direito entende do que se tratava.
+O dicionário explica as palavras, jeito e contexto de como elas podem ser usadas.
+#3: User control and freedom
+Windows quando o sistema trava, as únicas opções seriam tirar o computador da tomada ou desligar e religar manualmente.
+Android tem uma saída de emergência que seria a de reinicio rápido do celular, sendo útil em momentos onde todo o sistema trava e não dá para mexer em nada.
+#4: Consistency and standards
