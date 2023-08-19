@@ -54,11 +54,28 @@ Windows no status "Iniciando...", você não sabe o que realmente está sendo in
 WhatsApp você sabe quando a pessoa está digitando, on-line e/ou gravando áudio.
 
 #2: Match between system and the real world:
-Site da jusbrasil (área de processos), pois existem termos muito técnicos que somente quem é da área de direito entende do que se tratava.
-O dicionário explica as palavras, jeito e contexto de como elas podem ser usadas.
+Erro 404
+"Ops! Aconteceu um erro!"
 
 #3: User control and freedom:
 Windows quando o sistema trava, as únicas opções seriam tirar o computador da tomada ou desligar e religar manualmente.
 Android tem uma saída de emergência que seria a de reinicio rápido do celular, sendo útil em momentos onde todo o sistema trava e não dá para mexer em nada.
 
 #4: Consistency and standards:
+O site da Kabum não tem o icone de "lupa" que significa "pesquisar", que no consenso atual, você olha pra ela e já associa com pesquisa. No site tem um "Busque Aqui" gigante.
+
+#5: Error prevention
+
+Formatação de informações, como CPF ou número de telefone. Isso serve tanto pra exemplo bom quanto para exemplos ruins.
+
+#6: Recognition rather than recall
+
+
+#7: Flexibility and efficiency of use
+
+#8: Aesthetic and minimalist design
+
+#9: Help users recognize, diagnose, and recover from errors
+
+#10: Help and documentation
+
