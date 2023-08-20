@@ -32,11 +32,10 @@ Escolha de uso de uma IDE, escolha de linguagens e resolução de um problema co
 
 Linux e Windows.
 
-Comodidade x Versatilidade
-Simplicidade x Complexidade
-
-Primeiramente o costume, as pessoas estão mais acostumadas a conviver com o Windows instalado no PC do que o Linux, mesmo o próprio sendo "open source" no qual dá pra mexer em praticamente tudo.
-Além da interface gráfica do Windows ser bem mais convidativa, sendo mais fácil de entender-la.
+| Requisitos não funcionais | Motivo |
+| ------------------------  | ---------------------------|
+| Comodidade x Versatilidade|Primeiramente o costume, as pessoas estão mais acostumadas a conviver com o Windows instalado no PC do que o Linux, mesmo o próprio sendo "open source" no qual dá pra mexer em praticamente tudo.|
+|Simplicidade x Complexidade|Além da interface gráfica do Windows ser bem mais convidativa, sendo mais fácil de entender-la.|
 
 # 18/08
 
