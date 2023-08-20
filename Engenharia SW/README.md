@@ -16,6 +16,8 @@ Within Google, we sometimes say, “Software engineering is programming integrat
 
 ### Comentário:
 
+Um engenheiro de software não é somente ser um programador, que faz uma tarefa e acabou sua atividade por hoje. Ele tem que pensar em desenvolver de um modo que as modificações futuras e a manutenção não seje muito pesada para eles. Além de ter que se preocupar com o futuro do seu software.
+
 # 14/08
 
 Within Google, we sometimes say, “Software engineering is programming integrated over time.” Programming is certainly a significant part of software engineering: after all, programming is how you generate new software in the first place. If you accept this distinction, it also becomes clear that we might need to delineate between programming tasks (development) and software engineering tasks (development, modification, maintenance). The addition of time adds an important new dimension to programming. Cubes aren’t squares, distance isn’t velocity. Software engineering isn’t programming.
@@ -70,12 +72,24 @@ Formatação de informações, como CPF ou número de telefone. Isso serve tanto
 
 #6: Recognition rather than recall
 
+Filtros em que você tem que escrever ao invés de selecionar a opção desejada.
 
 #7: Flexibility and efficiency of use
 
+Acerto: Atalhos do teclado, como CTRL+Z, CTRL-C ou CTRL-V.
+Erro: Locais alternativos em mapas, mostrando o caminho mais demorado ao mais rápido, sendo que já é mostrado o mais rápido de primeira.
+
 #8: Aesthetic and minimalist design
+
+Acerto: Google, somente com o nome do site e uma barra de pesquisa.
+Erro: Qualquer site de pesquisa de produtos, é sempre uma bagunça, com promoções e produtos estampados na "home" desses sites, poluindo visualmente.
 
 #9: Help users recognize, diagnose, and recover from errors
 
+Acerto: "Não se pode renomear a pasta "Pictures" pois um arquivo ou pasta já tem esse nome."
+Erro: Tela azul do Windows
+
 #10: Help and documentation
 
+Acerto: Steam. Na página inicial desse site, há a aba "suporte", criados para ajudar novos usuários a saber como utilizar.
+Erro: Sites de downloads de arquivos. Geralmente, muitas pessoas se sentem inseguras ao baixar algo na internet, e um tutorial ensinando a baixar, seria útil para essas pessoas.
