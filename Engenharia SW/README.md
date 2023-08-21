@@ -10,6 +10,8 @@ Para um engenheiro de software, eles tem mais conhecimento acerca do tempo, e, c
 Em relação a escala, é importante também eles terem uma noção sobre o tamanho do projeto, assim, podem fazer o projeto com o máximo de eficiência em um tempo determinado.
 Além disso, eles são encorajados a fazer decisões mais complexas, que trará resultados de alto risco, baseados em escalas e tempo desconhecido.
 
+# 14/08
+
 ## Trecho 2:
 
 Within Google, we sometimes say, “Software engineering is programming integrated over time.” Programming is certainly a significant part of software engineering: after all, programming is how you generate new software in the first place. If you accept this distinction, it also becomes clear that we might need to delineate between programming tasks (development) and software engineering tasks (development, modification, maintenance). The addition of time adds an important new dimension to programming. Cubes aren’t squares, distance isn’t velocity. Software engineering isn’t programming.
@@ -17,12 +19,6 @@ Within Google, we sometimes say, “Software engineering is programming integrat
 ### Comentário:
 
 Um engenheiro de software não é somente ser um programador, que faz uma tarefa e acabou sua atividade por hoje. Ele tem que pensar em desenvolver de um modo que as modificações futuras e a manutenção não seje muito pesada para eles. Além de ter que se preocupar com o futuro do seu software.
-
-# 14/08
-
-Within Google, we sometimes say, “Software engineering is programming integrated over time.” Programming is certainly a significant part of software engineering: after all, programming is how you generate new software in the first place. If you accept this distinction, it also becomes clear that we might need to delineate between programming tasks (development) and software engineering tasks (development, modification, maintenance). The addition of time adds an important new dimension to programming. Cubes aren’t squares, distance isn’t velocity. Software engineering isn’t programming.
-
-## Comentário:
 
 ## Exemplos de trade-offs:
 
