@@ -36,29 +36,36 @@ Linux e Windows.
 # 18/08
 
 ### Qual o requisito não funcional? 
+
 Usabilidade.
 
-Qual a importância?
+### Qual a importância?
+
 Experiência do usuário (UX).
 
-Como "obter" este requisito não funcional para o meu software?
+### Como "obter" este requisito não funcional para o meu software?
+
 Aplicando estas 10 heuristicas.
 
-Encontre 1 erro e 1 acerto de cada heuristica e coloque no seu README.md no GitHub.
+### Encontre 1 erro e 1 acerto de cada heuristica e coloque no seu README.md no GitHub.
 
 #1: Visibility of system status:
-Windows no status "Iniciando...", você não sabe o que realmente está sendo iniciado.
+
+Windows no status "Iniciando...", você não sabe o que realmente está sendo iniciado.<br>
 WhatsApp você sabe quando a pessoa está digitando, on-line e/ou gravando áudio.
 
 #2: Match between system and the real world:
-Erro 404
+
+Erro 404 <br>
 "Ops! Aconteceu um erro!"
 
 #3: User control and freedom:
-Windows quando o sistema trava, as únicas opções seriam tirar o computador da tomada ou desligar e religar manualmente.
+
+Windows quando o sistema trava, as únicas opções seriam tirar o computador da tomada ou desligar e religar manualmente.<br>
 Android tem uma saída de emergência que seria a de reinicio rápido do celular, sendo útil em momentos onde todo o sistema trava e não dá para mexer em nada.
 
 #4: Consistency and standards:
+
 O site da Kabum não tem o icone de "lupa" que significa "pesquisar", que no consenso atual, você olha pra ela e já associa com pesquisa. No site tem um "Busque Aqui" gigante.
 
 #5: Error prevention
@@ -71,20 +78,26 @@ Filtros em que você tem que escrever ao invés de selecionar a opção desejada
 
 #7: Flexibility and efficiency of use
 
-Acerto: Atalhos do teclado, como CTRL+Z, CTRL-C ou CTRL-V.
+Acerto: Atalhos do teclado, como CTRL+Z, CTRL-C ou CTRL-V.<br>
 Erro: Locais alternativos em mapas, mostrando o caminho mais demorado ao mais rápido, sendo que já é mostrado o mais rápido de primeira.
 
 #8: Aesthetic and minimalist design
 
-Acerto: Google, somente com o nome do site e uma barra de pesquisa.
+Acerto: Google, somente com o nome do site e uma barra de pesquisa.<br>
 Erro: Qualquer site de pesquisa de produtos, é sempre uma bagunça, com promoções e produtos estampados na "home" desses sites, poluindo visualmente.
 
 #9: Help users recognize, diagnose, and recover from errors
 
-Acerto: "Não se pode renomear a pasta "Pictures" pois um arquivo ou pasta já tem esse nome."
+Acerto: "Não se pode renomear a pasta "Pictures" pois um arquivo ou pasta já tem esse nome."<br>
 Erro: Tela azul do Windows
 
 #10: Help and documentation
 
-Acerto: Steam. Na página inicial desse site, há a aba "suporte", criados para ajudar novos usuários a saber como utilizar.
+Acerto: Steam. Na página inicial desse site, há a aba "suporte", criados para ajudar novos usuários a saber como utilizar.<br>
 Erro: Sites de downloads de arquivos. Geralmente, muitas pessoas se sentem inseguras ao baixar algo na internet, e um tutorial ensinando a baixar, seria útil para essas pessoas.
+
+# 21/08
+
+# Ideia de implementação (diagrama): 
+![diagram drawio](https://github.com/ChavesVini/Bertoti/assets/126925449/273c64a4-3272-4dca-9d3e-2b757c9ee418)
+
