@@ -101,3 +101,5 @@ Erro: Sites de downloads de arquivos. Geralmente, muitas pessoas se sentem inseg
 # Ideia de implementação (diagrama): 
 ![diagram drawio](https://github.com/ChavesVini/Bertoti/assets/126925449/273c64a4-3272-4dca-9d3e-2b757c9ee418)
 
+# UML
+![bertoti-uml](https://github.com/ChavesVini/Bertoti/assets/126925449/eb077f40-b9ec-4a4d-8643-221ebc719d5f)
