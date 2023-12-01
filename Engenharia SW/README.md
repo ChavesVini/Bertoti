@@ -30,8 +30,9 @@ Linux e Windows.
 
 | Requisitos não funcionais | Motivo |
 | ------------------------  | ---------------------------|
-| Comodidade x Versatilidade|Primeiramente o costume, as pessoas estão mais acostumadas a conviver com o Windows instalado no PC do que o Linux, mesmo o próprio sendo "open source" no qual dá pra mexer em praticamente tudo.|
-|Simplicidade x Complexidade|Além da interface gráfica do Windows ser bem mais convidativa, sendo mais fácil de entender-la.|
+|Comodidade x Versatilidade|As pessoas estão mais acostumadas a conviver com o Windows instalado no PC do que o Linux, mesmo o próprio sendo "open source" no qual dá pra mexer em praticamente tudo.|
+|Simplicidade x Complexidade|Interface gráfica do Windows ser bem mais convidativa, sendo mais fácil de entender-la.|
+|Privacidade x Exposição| O Linux é menos atacado por hackers justamente por ser uma OS menos conhecida do que o Windows, sendo menos propensa a ser atacada. Além dele ser muito mais privativo do que o próprio Windows, a maioria das distribuições Linux não coleta informações do usuário sem permissão.|
 
 # 18/08
 
