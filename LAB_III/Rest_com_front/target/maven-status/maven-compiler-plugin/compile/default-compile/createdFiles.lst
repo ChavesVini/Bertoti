@@ -1,0 +1,4 @@
+com\fruits\Fruit.class
+com\fruits\FraseRepository.class
+com\fruits\Controller.class
+com\fruits\RestApiDemoController.class
