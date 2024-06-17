@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit CRUD App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        form {
+            margin-bottom: 10px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+        }
+        .fruit-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        .fruit-item {
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            padding: 10px;
+            background-color: #f9f9f9;
+        }
+        .button-container {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Frutas</h1>
+
+        <form id="addFruitForm">
+            <label for="fruitName">Adicionar Frutas:</label>
+            <input type="text" id="fruitName" name="fruitName" required>
+            <button type="submit" onclick="fetchFruits()">Add Fruit</button>
+        </form>
+        <ol class="fruit-list" id="fruitList"></ol>
+    </div>
+
+    <script>
+        const apiUrl = 'http://localhost:8080/fruits';
+
+        async function fetchFruits() {
+            try {
+                const response = await fetch(apiUrl);
+                const fruits = await response.json();
+
+                const fruitList = document.getElementById('fruitList');
+                fruitList.innerHTML = '';
+
+                fruits.forEach(fruit => {
+                    const li = document.createElement('li');
+                    li.classList.add('fruit-item');
+                    li.textContent = `${fruit.name}`;
+
+                    const deleteButton = document.createElement('button');
+                    deleteButton.textContent = 'Delete';
+                    deleteButton.classList.add('delete-button');
+                    deleteButton.addEventListener('click', () => deleteFruit(fruit.id));
+                    li.appendChild(deleteButton);
+
+                    const updateButton = document.createElement('button');
+                    updateButton.textContent = 'Update';
+                    updateButton.classList.add('update-button');
+                    updateButton.addEventListener('click', () => updateFruit(fruit.id, fruit.name));
+                    li.appendChild(updateButton);
+
+                    const newNameInput = document.createElement('input');
+                    newNameInput.type = 'text';
+                    newNameInput.id = `newNameInput_${fruit.id}`;
+                    newNameInput.placeholder = 'Enter new name';
+                    li.appendChild(newNameInput);
+
+                    fruitList.appendChild(li);
+                });
+
+            } catch (error) {
+                console.error('Error fetching fruits:', error);
+            }
+        }
+
+        // Function to add a new fruit
+        async function addFruit(event) {
+            event.preventDefault();
+
+            const form = event.target;
+            const formData = new FormData(form);
+            const fruitName = formData.get('fruitName');
+
+            try {
+                const response = await fetch(apiUrl, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ name: fruitName }),
+                });
+
+                if (!response.ok) {
+                    throw new Error('Failed to add fruit');
+                }
+
+                form.reset();
+                fetchFruits(); // Refresh the fruit list
+
+            } catch (error) {
+                console.error('Error adding fruit:', error);
+            }
+        }
+
+        async function deleteFruit(id) {
+            try {
+                const response = await fetch(`${apiUrl}/${id}`, {
+                    method: 'DELETE',
+                });
+
+                fetchFruits();
+
+            } catch (error) {
+                console.error('Error deleting fruit:', error);
+            }
+        }
+
+        async function updateFruit(id) {
+            const nameInput = document.getElementById(`newNameInput_${id}`);
+            const fruitName = nameInput.value;
+            try {
+                const response = await fetch(`${apiUrl}/${id}`, {
+                    method: 'PUT',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ name: fruitName })
+                    });
+                    
+                fetchFruits(); 
+
+            } catch (error) {
+                console.error('Error deleting fruit:', error);
+            }
+        }
+        
+        fetchFruits();
+
+        // Add event listener to the form submission
+        const addFruitForm = document.getElementById('addFruitForm');
+        addFruitForm.addEventListener('submit', addFruit);
+
+        // Add event listener to the refresh button
+        const refreshButton = document.getElementById('refreshButton');
+        refreshButton.addEventListener('click', refreshFruitList);
+
+        // Initial fetch of fruits
+        fetchFruits();
+    </script>
+</body>
+</html>

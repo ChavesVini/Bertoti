@@ -7,8 +7,10 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity; 
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList; 
-import java.util.List; 
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+import java.util.concurrent.atomic.AtomicInteger; 
 
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
 public class Controller {
@@ -21,14 +23,16 @@ public class Controller {
 @RestController 
 @RequestMapping("/fruits") 
 class RestApiDemoController { 
+
 	private List<Fruit> fruits = new ArrayList<>();
+	private AtomicInteger atomic = new AtomicInteger(4);
 
 	public RestApiDemoController() {
 		fruits.addAll(List.of(
-			new Fruit("1", "Pumpkin"),
-			new Fruit("2","Grape"),
-			new Fruit("3","Strawberry"),
-			new Fruit("4","Orange")
+			new Fruit(1, "Pumpkin"),
+			new Fruit(2, "Grape"),
+			new Fruit(3, "Strawberry"),
+			new Fruit(4,"Orange")
 	));
 	}
 
@@ -37,21 +41,22 @@ class RestApiDemoController {
 		return fruits;
 	}
 
-	@PostMapping("/{id}")
+	@PostMapping
 	Fruit postFruit(@RequestBody Fruit fruit) {
+		fruit.setId(atomic.incrementAndGet()); 
 		fruits.add(fruit);
 		return fruit;
 	}
 
 	@PutMapping("/{id}")
-	ResponseEntity<Fruit> putFruit(@PathVariable String id,
+	ResponseEntity<Fruit> putFruit(@PathVariable Integer id,
 									@RequestBody Fruit fruit) {
 		int fruitIndex = -1;
 
 		for (Fruit f: fruits) {
 			if (f.getId().equals(id)) {
 				fruitIndex = fruits.indexOf(f);
-				fruits.set(fruitIndex, fruit);
+				fruits.set(fruitIndex, new Fruit(id, fruit.getName()));
 			}
 		}
 
@@ -61,8 +66,13 @@ class RestApiDemoController {
 	}
 
 	@DeleteMapping("/{id}")
-	void deleteFruit(@PathVariable String id) {
-		fruits.removeIf(f -> f.getId().equals(id));
+	void deleteFruit(@PathVariable Integer id) {
+		Iterator<Fruit> iterator = fruits.iterator();
+		while (iterator.hasNext()) {
+			Fruit fruit = iterator.next();
+			if (fruit.getId() == id) {
+				iterator.remove();
+			}
+		}
 	}
 }
-

@@ -2,19 +2,19 @@ package com.fruits;
 
 public class Fruit {
 
-    private String id;
+    private Integer id;
     private String name;
     
-        public Fruit(String id, String name) {
+        public Fruit(Integer id, String name) {
             this.id = id;
             this.name = name;
         }
     
-        public String getId() {
+        public Integer getId() {
             return id;
         }
     
-        public void setId(String id) {
+        public void setId(Integer id) {
             this.id = id;
         }
     
