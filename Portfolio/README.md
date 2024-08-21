@@ -4,17 +4,14 @@ Faça uma breve introdução sobre você. Fale de sua formação e carreira. Cas
 
 ## Contatos
 
-**Git**: [<img align="center" height="40" width="40" alt="github-logo" src="https://cdn-icons-png.flaticon.com/512/25/25231.png"/>](https://github.com/ChavesVini)
+**Git**: https://github.com/ChavesVini
 <br>
-**LinkedIn**: [<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](https://br.linkedin.com/in/vin%C3%ADcius-chaves-197353244)
+**LinkedIn**: https://br.linkedin.com/in/vin%C3%ADcius-chaves-197353244
 
 ## Meus Principais Conhecimentos
 Possuo conhecimento e maior dominio na criação de códigos em backend, como Java e Spring Boot;
 Desejo desenvolver o conhecimento no frontend, em VueJS, HTML e CSS;
-
-
-Apresente seus principais conhecimentos. Foque nos conhecimentos que possui maior domínio e que deseja desenvolver durante sua carreira.
-
+Possuo conhecimento na criação de scripts no Banco de Dados;
 
 ## Meus Projetos
 
@@ -25,8 +22,6 @@ necessidade de configurar as fontes de dados envolvidas para que a plataforma po
   Criamos uma interface amigável para configuração das fontes de dados em alguns estágios que levarão a dois benefícios tangíveis:  
 1) Maior agilidade de configurar implantação para clientes Dom Rock;
 2) Diminuir a dependência de técnicos especialistas para a configuração.
-
-[GIT](https://www.git.com)
 
 #### Tecnologias Utilizadas
 •	Java e SpringBoot - Essenciais para formar a lógica por trás da interface;
