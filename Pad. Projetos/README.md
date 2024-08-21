@@ -1,3 +1,5 @@
 # UML Strategy
 
-![UML Strategy](https://github.com/user-attachments/assets/43a6d83c-4c87-4cc4-8d6c-b3a352e46f47)
+![UML Strategy drawio](https://github.com/user-attachments/assets/4559f279-a783-4b88-9fff-7682f17fd5ef)
+
+# UML Observer
