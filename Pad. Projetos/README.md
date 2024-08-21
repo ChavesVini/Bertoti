@@ -1,1 +1,1 @@
-Repositório dedicado as aulas de Padrões de Projetos de Sistemas
+Dedicado as aulas de Padrões de Projetos de Sistemas
