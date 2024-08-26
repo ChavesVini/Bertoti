@@ -35,10 +35,27 @@ necessidade de configurar as fontes de dados envolvidas para que a plataforma po
 
 #### Contribuições Pessoais
 No terceiro semestre, contribui com o back-end, desenvolvendo também, algumas partes no front-end:
-•	O algoritmo de ler o cabeçalho do Excel: Montei o algoritmo mais importante do projeto, para ler um arquivo Excel de sua escolha, e meu algoritmo ia ler e retornar os nomes dos cabeçalhos;
-•	Algoritmo para selecionar entre Excel e CSV: Consistia em, quando escrevesse o tipo do Excel, ele selecionaria qual tipo de “leitor” iria processar o arquivo, sendo “CSV” para arquivos CSV e “Excel” para arquivos tipo Excel (XLSX, XLS, XLSB, etc...);
-•	Correção de bugs: Alguns bugs que apareciam ou notavam no projeto, atuei para inibir e se certificar de que não haveria mais bugs na solução desenvolvida. No backend, atuei consertando problemas de lógicas incorretas ou códigos quebrados. No frontend utilizando Vue.js, consertando botões e filtros sem funcionalidade.
-Tudo isso feito com Java no Back e Vue.js no Front.
+### O algoritmo de ler o cabeçalho do Excel
+
+<details>
+  Montei o algoritmo mais importante do projeto, para ler um arquivo Excel de sua escolha, e meu algoritmo ia ler e retornar os nomes dos cabeçalhos. 
+  Foi reciclado um pedaço de um código do segundo semestre (2023-2) para trazer os cabeçalhos dos CSVs, com uma lógica feita para trazer-los o mesmo. Para trazer, já tinha um pedaço do código pronto, somente trazer a primeira linha do CSV. Não foi tão dificil de desenvolver, mas gostaria que fosse um pouco mais desafiador, até porque foi só incrementar mais algumas linhas e saiu funcionando tranquilamente.
+</details>
+  
+### Algoritmo para selecionar entre Excel e CSV
+
+<details>
+  Consistia em, quando escrevesse o tipo do Excel, ele selecionaria qual tipo de “leitor” iria processar o arquivo, sendo “CSV” para arquivos CSV e “Excel” para arquivos tipo Excel (XLSX, XLS, XLSB, etc...);
+  Foi um dos códigos mais trabalhosos que tive que fazer, por conta de todas as validações, fazer as rotas do front e back foi um verdadeiro desafio.
+</details>
+
+### Correção de bugs advindas de soluções ou que surgiam.
+
+<details>
+  Alguns bugs que apareciam ou notavam no projeto, atuei para inibir e se certificar de que não haveria mais bugs na solução desenvolvida. No backend, atuei consertando problemas de lógicas incorretas ou códigos quebrados.
+  No backend foi bem mais fácil do que no frontend, já que tive mais contato com a parte do backend. O frontend foi puramente pesquisa e implementação, foi bem complicado de inicio, mas depois acabei notando que era igual ao que já havia implementado, agora em outra linguagem. Mesmo com as semelhanças do Java e JavaScript, foi dificil se adaptar a esse novo "estilo" de codar.
+  Por mais que tivesse mais focado em backend, ajudei também as pessoas do front para desenvolverem suas soluções, baseado nos exemplos nos códigos já feitos e em fóruns da internet, acabei entendendo o básico que ajudou a completar o projeto. 
+</details>
 
 #### Hard Skills
 Java e Spring Boot - Sei fazer com autonomia
@@ -48,15 +65,3 @@ Vue.js, CSS e HTML - Guiado
 
 Pró-atividade - Terminado minhas tarefas, auxiliava quem pedia ajuda ou quem estava com alguma dúvida, fazendo o possivel para acelerar e entregar as tasks do jeito mais estruturado e sólido possivel, agindo, assim, como um facilitador;
 Autonomia - Evitando ao máximo não fazer sozinho, buscava dicas ou soluções em fóruns, também pesquisando o que fazia cada função, mesmo em tecnologias novas que não domino;
-
-### Em 2022-1
-Mesmo formato
-
-### Em 2022-2
-Mesmo formato
-
-### Em 2023-1
-Mesmo formato
-
-### Em 2023-2
-Mesmo formato
