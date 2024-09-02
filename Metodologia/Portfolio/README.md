@@ -1,6 +1,6 @@
 ## Introdução
 
-Faça uma breve introdução sobre você. Fale de sua formação e carreira. Caso aplicável, fale de publicações ou apresentações em eventos da área de computação. Inclua uma foto!
+Meu nome é Vinícius. Entrei na Fatec no ínicio de 2023, e, desde lá, tenho aprimorado minhas habilidades de código e modelagem de dados. Nunca havia mexido em programação antes desse curso e venho aprendendo bastante. Atualmente sou IT CRM no banco BTG Pactual, estou aprendendo a me comunicar com as àreas, mexendo em Python e suas bibliotecas (pandas, pyspark), além de trazer os dados e transformar em dashboards.
 
 ## Contatos
 
@@ -9,29 +9,32 @@ Faça uma breve introdução sobre você. Fale de sua formação e carreira. Cas
 **LinkedIn**: https://br.linkedin.com/in/vin%C3%ADcius-chaves-197353244
 
 ## Meus Principais Conhecimentos
-Possuo conhecimento e maior dominio na criação de códigos em backend, como Java e Spring Boot;
-Desejo desenvolver o conhecimento no frontend, em VueJS, HTML e CSS;
-Possuo conhecimento na criação de scripts no Banco de Dados;
+- Possuo conhecimento e maior dominio na criação de códigos em backend, como Java e Spring Boot;
+- Desejo desenvolver o conhecimento no frontend, em VueJS, HTML e CSS;
+- Possuo conhecimento na criação de scripts no Banco de Dados;
 
 ## Meus Projetos
 
 ### Em 2024-1
-  A empresa para quem desenvolvemos o projeto se chama "Dom Rock".
+  A empresa para quem desenvolvemos o projeto se chama "Dom Rock". 
+  
   Dom Rock possui uma arquitetura de processamento de dados encadeados denominado pipeline que contempla alguns estágios. Esses estágios são orquestrados de forma automatizada mediante características das fontes de dados e soluções de algoritmos de IA ou modelos matemáticos em função do negócio dos clientes. Na metodologia de implantação da solução, existe a 
-necessidade de configurar as fontes de dados envolvidas para que a plataforma possa operar. Essa configuração, atualmente, é manual e trata-se de um passo crítico e fundamental que consome muito tempo de técnicos
+necessidade de configurar as fontes de dados envolvidas para que a plataforma possa operar. Essa configuração, atualmente, é manual e trata-se de um passo crítico e fundamental que consome muito tempo de técnicos.  
+
   Criamos uma interface amigável para configuração das fontes de dados em alguns estágios que levarão a dois benefícios tangíveis:  
+  
 1) Maior agilidade de configurar implantação para clientes Dom Rock;
 2) Diminuir a dependência de técnicos especialistas para a configuração.
 
 ### Tecnologias Utilizadas
-•	Java e SpringBoot - Essenciais para formar a lógica por trás da interface;
-•	Vue.js, HTML e CSS - Criar a interface de forma interativa, para saber exatamente por qual caminho entrar;
-•	VSCode e IntelliJIDEA - Editores de código, essencial para criar a aplicação;
-•	Slack - Comunicação com o cliente;
-•	Figma - Criação do estilo da interface;
-•	Postman - Interação do código backend com o servidor, usando endpoints para isso;
-•	MySQL - Banco de Dados utilizado para armazenar as informações de forma segura;
-•	DBeaver e MySQL Workbench - Manipulação do Banco de Dados, discutindo como seria guardado os dados em cada tabela 
+-	Java e SpringBoot - Essenciais para formar a lógica por trás da interface;
+-	Vue.js, HTML e CSS - Criar a interface de forma interativa, para saber exatamente por qual caminho entrar;
+-	VSCode e IntelliJIDEA - Editores de código, essencial para criar a aplicação;
+-	Slack - Comunicação com o cliente;
+-	Figma - Criação do estilo da interface;
+-	Postman - Interação do código backend com o servidor, usando endpoints para isso;
+-	MySQL - Banco de Dados utilizado para armazenar as informações de forma segura;
+-	DBeaver e MySQL Workbench - Manipulação do Banco de Dados, discutindo como seria guardado os dados em cada tabela 
 
 ### Contribuições Pessoais
 No terceiro semestre, contribui com o back-end, desenvolvendo também, algumas partes no front-end:
