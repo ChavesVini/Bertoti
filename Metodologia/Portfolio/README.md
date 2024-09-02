@@ -35,11 +35,12 @@ necessidade de configurar as fontes de dados envolvidas para que a plataforma po
 
 #### Contribuições Pessoais
 No terceiro semestre, contribui com o back-end, desenvolvendo também, algumas partes no front-end:
+
 ### O algoritmo de ler o cabeçalho do Excel
 
 <details>
   Montei o algoritmo mais importante do projeto, para ler um arquivo Excel de sua escolha, e meu algoritmo ia ler e retornar os nomes dos cabeçalhos. 
-  Foi reciclado um pedaço de um código do segundo semestre (2023-2) para trazer os cabeçalhos dos CSVs, com uma lógica feita para trazer-los o mesmo. Para trazer, já tinha um pedaço do código pronto, somente trazer a primeira linha do CSV. Não foi tão dificil de desenvolver, mas gostaria que fosse um pouco mais desafiador, até porque foi só incrementar mais algumas linhas e saiu funcionando tranquilamente.
+  Foi reciclado um pedaço de um código do segundo semestre (2023-2) para trazer os cabeçalhos e o conteúdo dentro do CSV, fazendo uma lógica para trazer apenas os cabeçalhos, fazendo o mesmo para ler arquivos Excel (XLSX, XLSM, etc). Não foi tão dificil de desenvolver, mas gostaria que fosse um pouco mais desafiador, até porque foi só incrementar mais algumas linhas e saiu funcionando tranquilamente.
 </details>
   
 ### Algoritmo para selecionar entre Excel e CSV
