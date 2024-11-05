@@ -1,2 +1,3 @@
 # UML Singleton
-![Singleton](https://github.com/user-attachments/assets/a1385cd6-8d03-42c9-bae4-baf013d5f638)
+
+![Singleton (1)](https://github.com/user-attachments/assets/4322f560-cfb3-4c1b-8b5a-b4775adcab44)
