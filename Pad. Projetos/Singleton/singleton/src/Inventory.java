@@ -5,7 +5,7 @@ public class Inventory {
     private static Inventory instance;
     private Map<String, Integer> products;
 
-    public Inventory() {
+    private Inventory() {
         products = new HashMap<>();
     }
 
