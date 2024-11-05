@@ -1,14 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-        SupermarketSystem system = new SupermarketSystem();
+        Inventory inventory = new Inventory();
 
-        system.addProductsToInventory("Maçã", 50);
-        system.addProductsToInventory("Banana", 30);
+        inventory.addProduct("Maçã", 50);
+        inventory.addProduct("Banana", 30);
 
-        system.removeProductsFromInventory("Maçã", 10);
-        system.removeProductsFromInventory("Banana", 5);
+        inventory.removeProduct("Maçã", 10);
+        inventory.removeProduct("Banana", 5);
 
-        system.displayStock("Maçã");
-        system.displayStock("Banana");
+        inventory.checkStock("Maçã");
+        inventory.checkStock("Banana");
     }
 }
