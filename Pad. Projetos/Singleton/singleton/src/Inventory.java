@@ -5,7 +5,7 @@ public class Inventory {
     private static Inventory instance;
     private Map<String, Integer> products;
 
-    private Inventory() {
+    public Inventory() {
         products = new HashMap<>();
     }
 
@@ -33,7 +33,8 @@ public class Inventory {
         }
     }
 
-    public int checkStock(String productName) {
-        return products.getOrDefault(productName, 0);
+    public void checkStock(String productName) {
+        Integer stock = products.getOrDefault(productName, 0);
+        System.out.println("Estoque de " + productName + ": " + stock);
     }
 }
