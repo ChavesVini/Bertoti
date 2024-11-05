@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Inventory inventory = new Inventory();
+        Inventory inventory = Inventory.getInstance();
 
         inventory.addProduct("Maçã", 50);
         inventory.addProduct("Banana", 30);
