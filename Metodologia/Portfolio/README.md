@@ -71,10 +71,10 @@ No terceiro semestre, contribui com o back-end, desenvolvendo também, algumas p
 </details>
 
 ### Hard Skills
-Java e Spring Boot - Sei fazer com autonomia
-Vue.js, CSS e HTML - Guiado
+- Java e Spring Boot: Sei fazer com autonomia;
+- Vue.js, CSS e HTML: Guiado;
 
 ### Soft Skills
 
-Pró-atividade - Terminado minhas tarefas, auxiliava quem pedia ajuda ou quem estava com alguma dúvida, fazendo o possivel para acelerar e entregar as tasks do jeito mais estruturado e sólido possivel, agindo, assim, como um facilitador;
-Autonomia - Evitando ao máximo não fazer sozinho, buscava dicas ou soluções em fóruns, também pesquisando o que fazia cada função, mesmo em tecnologias novas que não domino;
+- Pró-atividade: Terminado minhas tarefas, auxiliava quem pedia ajuda ou quem estava com alguma dúvida, fazendo o possivel para acelerar e entregar as tasks do jeito mais estruturado e sólido possivel, agindo, assim, como um facilitador;
+- Autonomia: Evitando ao máximo não fazer sozinho, buscava dicas ou soluções em fóruns, também pesquisando o que fazia cada função, mesmo em tecnologias novas que não domino;
